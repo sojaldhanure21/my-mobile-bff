@@ -8,7 +8,7 @@ router.use(express.json()); // Make sure this is before your routes
 // Dummy user for demonstration
 const user = {
   email: 'test@example.com',
-  password: 'password123'
+  password: 'password123',
 };
 
 router.post('/', (req, res) => {
